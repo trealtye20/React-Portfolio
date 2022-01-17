@@ -32,6 +32,14 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <div className="drive">
+    <footer className="github">
+      <a href="https://github.com/trealtye20">Github</a>
+    </footer>
+    <footer className="linkedin">
+      <a href="www.linkedin.com/in/tyrese-exantus">linkedin</a>
+    </footer>
+    </div>
     </div>
   );
 }
