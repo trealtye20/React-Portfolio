@@ -1,0 +1,17 @@
+.aboutClass p {
+    text-align: center;
+    margin: 5%;
+}
+
+.aboutClass {
+    background-color: turquoise;
+}
+
+.avatar {
+    background-image: url("../img/memoji.png");
+    background-position: center;
+    min-height: 30vh;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    margin: 5%;
+}

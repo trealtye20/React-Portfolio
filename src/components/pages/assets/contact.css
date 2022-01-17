@@ -1,0 +1,21 @@
+.contact address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color:   white;
+}
+
+.contact {
+  background-image: url("../img/giphy.gif");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.contact h1 {
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex-item {
+  background-image: url("../img/galaxy.gif");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+h2 {
+  color: white;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-item {
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150px;
+    transition: all 0.5m;
+    font-size: 0.9rem;
+  }
+  
+  .box-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+  }
+  
+  .box-item:hover {
+    background-color: var(--dark);
+  }
+  
+  .box-item div {
+    background-color: var(--secondary);
+    padding: 8px 10px;
+  }
+  
+  .box-item h4 {
+    font-size: 1.6rem;
+  }
+
+.flex-item {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    color: var(--dark);
+  }
+
+  .flex-item > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--primary);
+    font-size: 4vw;
+    line-height: 1.1;
+  }
+  
+  .flex-item > div {
+    flex: 0 0 77%;
+  }
+  
+  .flex-item a {
+    margin-top: 10%;
+    justify-content: center;
+    color: black;
+  }
+  
+  .flex-item p {
+    margin-bottom: 20px;
+  }
+
+.password {
+  background-image: url("../img/password.jpg");
+  background-size: cover;
+}
+
+.day {
+  background-image: url("../img/Day-planner.jpg");
+  background-size: cover;
+}
+
+.misc1 {
+  background-image: url("../img/Notetaker.png");
+  background-size: cover;
+}
+
+.misc2 {
+  background-image: url("../img/Mental-Health-Tracker.png");
+  background-size: cover;
+}
+
+.bark {
+  background-image: url("../img/Barker.png");
+  background-size: cover;
+}
+
+.quiz {
+  background-image: url("../img/Code-Quiz.png");
+  background-size: cover;
+}
+

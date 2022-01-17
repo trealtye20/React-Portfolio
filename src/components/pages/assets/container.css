@@ -1,0 +1,12 @@
+.bar {
+    background-image: url("../img/planet.gif");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
